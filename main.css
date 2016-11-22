@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td, embed, object {
+	padding: 0; 
+	margin: 0;
+}
+img{
+	border:0;
+}
+/*common*/
+.clearfix:before{
+	display:block;
+	height:0;
+	content:'';
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+.words{
+	position:absolute;
+	top:60px;
+	left:50%;
+	height:56px;
+}
+.barList{
+	position:absolute;
+	top:135px;
+	left:60px;
+}
+.barList li{
+	float:left;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background:#fff;
+	border:1px solid #0063a2;
+	list-style-type:none;
+	margin:2px;
+}
+.barList .active{
+	background:#0063a2;
+}
+.step{
+	position:absolute;
+	top:0;
+	left:40%;
+}
+.step_icon{
+	float:left;
+	width:62px;
+	height:33px;
+	margin-right:8px;
+	background:url(image/guidebg.png) -585px -2px no-repeat;
+}
+.step_words{
+	float:left;
+	width:60px;
+	height:23px;
+}
+.stepCont{
+	position:absolute;
+	top:42px;
+	left:0;
+}
+.dialog{
+	position:absolute;	
+	width:280px;
+	height:185px;
+	background:url(image/guidebg.png) -7px 0px no-repeat;
+	left:55%;
+	margin-left:-140px;
+}
+.close{
+	position:absolute;
+	top:35px;
+	left:230px;
+	width:30px;
+	height:30px;
+	text-indent:-999px;
+	cursor:pointer;
+}
+.next{
+	position:absolute;
+	top:124px;
+	left:152px;
+	width:80px;
+	height:24px;
+	text-indent:-999px;
+	cursor:pointer;
+}
+/*body*/
+body{
+	background:#f0f0f0 url(image/bg.png) top center no-repeat;
+	height:1100px;
+}
+/*guideButton*/
+.guideButton{
+	position:absolute;
+	width:80px;
+	height:25px;
+	top:15px;
+	left:50%;
+	margin-left:370px;
+	background:url(image/guidebg.png) 0 -191px no-repeat;
+	cursor:pointer;
+}
+/*cover*/
+.cover{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1100px;
+	background:rgba(0,0,0,0.5);
+}
+/*guideBox*/
+.guideBox{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:952px;
+	margin-left:-476px;
+	height:1100px;
+}
+/*allStep*/
+.allStep{
+	position:absolute;
+	top:270px;
+	left:50%;
+	width:280px;
+	height:185px;
+	margin-left:-140px;
+	background:url(image/guidebg.png) -7px 0px no-repeat;	
+}
+.allStep .words{
+	width:176px;
+	background:url(image/guidebg.png) 0 -217px no-repeat;
+	margin-left:-93px;
+}
+/*firstStep*/
+.firstStepBox{
+	position:absolute;
+	top:28px;
+	left:110px;
+	width:616px;
+}
+.firstStepBox .step_words{
+	background:url(image/guidebg.png) -85px -193px no-repeat;
+}
+
+.firstStepBox .stepCont{
+	width:616px;
+	height:250px;
+	background:url(image/stepflow-pic.png) 0 0 no-repeat;
+}
+.firstStepBox .dialog{
+	top:280px;
+}
+.firstStepBox .words{
+	width:210px;
+	background:url(image/guidebg.png) -177px -217px no-repeat;
+	margin-left:-105px;
+}
+/*secondStep*/
+.secondStepBox{
+	position:absolute;
+	top:290px;
+	left:67px;
+	width:773px;
+}
+.secondStepBox .step_words{
+	background:url(image/guidebg.png) -160px -193px no-repeat;
+} 
+.secondStepBox .stepCont{
+	width:768px;
+	height:470px;
+	background:url(image/stepflow-pic.png) 0 -260px no-repeat;
+}
+.secondStepBox .dialog{
+	top:480px;
+}
+.secondStepBox .words{
+	width:196px;
+	background:url(image/guidebg.png) -389px -217px no-repeat;
+	margin-left:-98px;
+}
+/*thirdStep*/
+.thirdStepBox{
+	position:absolute;
+	top:773px;
+	left:90px;
+	width:683px;
+}
+.thirdStepBox .step{
+	left:5%;
+}
+.thirdStepBox .step_words{
+	background:url(image/guidebg.png) -233px -193px no-repeat;
+} 
+.thirdStepBox .stepCont{
+	width:688px;
+	height:280px;
+	background:url(image/stepflow-pic.png) 0 -740px no-repeat;
+}
+.thirdStepBox .dialog{
+	background:url(image/guidebg.png) -295px 0 no-repeat;
+	top:-140px;
+}
+.thirdStepBox .words{
+	width:210px;
+	background:url(image/guidebg.png) 0 -276px no-repeat;
+	margin-left:-105px;
+	top:50px;
+}
+.thirdStepBox .close{
+	top:21px;
+	left:250px;
+}
+.thirdStepBox .next{
+	top:110px;
+	left:84px;
+}
+
